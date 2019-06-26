@@ -1,0 +1,644 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="McBtnName" xml:space="preserve">
+    <value>btnMc</value>
+  </data>
+  <data name="btnMrName" xml:space="preserve">
+    <value>btnMr</value>
+  </data>
+  <data name="CEName" xml:space="preserve">
+    <value>btnCe</value>
+  </data>
+  <data name="CEText" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="ClearBtnName" xml:space="preserve">
+    <value>btnClear</value>
+  </data>
+  <data name="ClearbtnText" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="EightBtnName" xml:space="preserve">
+    <value>btnEight</value>
+  </data>
+  <data name="EightBtnText" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="EScName" xml:space="preserve">
+    <value>btnEscape</value>
+  </data>
+  <data name="EscText" xml:space="preserve">
+    <value>←</value>
+  </data>
+  <data name="FiveBtnName" xml:space="preserve">
+    <value>btnFive</value>
+  </data>
+  <data name="FiveBtnText" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>Microsoft Sans Serif</value>
+  </data>
+  <data name="FourBtnName" xml:space="preserve">
+    <value>btnFour</value>
+  </data>
+  <data name="FourBtnText" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="McBtnText" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="McBtnToolTip" xml:space="preserve">
+    <value>Clear the stored Value</value>
+  </data>
+  <data name="MDecToolTip" xml:space="preserve">
+    <value>Memory Decrement</value>
+  </data>
+  <data name="MIncName" xml:space="preserve">
+    <value>btnMInc</value>
+  </data>
+  <data name="MIncTag" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="MminusName" xml:space="preserve">
+    <value>btnMMinus</value>
+  </data>
+  <data name="MminusTag" xml:space="preserve">
+    <value>M-</value>
+  </data>
+  <data name="MMinusToolTip" xml:space="preserve">
+    <value>Decrement the Ms Value By One</value>
+  </data>
+  <data name="MPlusName" xml:space="preserve">
+    <value>btnMPlus</value>
+  </data>
+  <data name="MPlusTag" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="MPlusToolTip" xml:space="preserve">
+    <value>Increment the Ms Value By One</value>
+  </data>
+  <data name="MrBtnName" xml:space="preserve">
+    <value>btnMr</value>
+  </data>
+  <data name="MrBtnTag" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="MrToolTip" xml:space="preserve">
+    <value>Memory Restorred</value>
+  </data>
+  <data name="MsBtnName" xml:space="preserve">
+    <value>btnMs</value>
+  </data>
+  <data name="MsBtnTag" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="MsBtnToolTip" xml:space="preserve">
+    <value>Store the the current value</value>
+  </data>
+  <data name="NineBtnName" xml:space="preserve">
+    <value>btNine</value>
+  </data>
+  <data name="NineBtnText" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="OneBtnName" xml:space="preserve">
+    <value>btnOne</value>
+  </data>
+  <data name="OneBtnText" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RootBtnName" xml:space="preserve">
+    <value>btnRoot</value>
+  </data>
+  <data name="RootBtnText" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="SevenBtnName" xml:space="preserve">
+    <value>btnSeven</value>
+  </data>
+  <data name="SevenBtnText" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SixBtnName" xml:space="preserve">
+    <value>btnSix</value>
+  </data>
+  <data name="SixBtnText" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ThreeBtnName" xml:space="preserve">
+    <value>btnThree</value>
+  </data>
+  <data name="ThreeBtnText" xml:space="preserve">
+    <value>3</value>
+    <comment>q</comment>
+  </data>
+  <data name="TwoBtnName" xml:space="preserve">
+    <value>btnTwo</value>
+  </data>
+  <data name="TwoBtnText" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ZeroBtnName" xml:space="preserve">
+    <value>btnZero</value>
+  </data>
+  <data name="ZeroBtnText" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Zerotoolitp" xml:space="preserve">
+    <value>Zero </value>
+  </data>
+  <data name="CeToolTip" xml:space="preserve">
+    <value>Clear Current Input</value>
+  </data>
+  <data name="ClearToolTip" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>&amp;Copy</value>
+  </data>
+  <data name="CosBtnName" xml:space="preserve">
+    <value>btnCos</value>
+  </data>
+  <data name="CosBtnTag" xml:space="preserve">
+    <value>Cos</value>
+  </data>
+  <data name="CosBtnText" xml:space="preserve">
+    <value>Cos</value>
+  </data>
+  <data name="CosBtnToolTip" xml:space="preserve">
+    <value>btnCos</value>
+  </data>
+  <data name="DivBtnName" xml:space="preserve">
+    <value>btnDivOp</value>
+  </data>
+  <data name="DivBtnTag" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="DivBtnText" xml:space="preserve">
+    <value>/</value>
+  </data>
+  <data name="DivBtnToolTip" xml:space="preserve">
+    <value>Perform Division</value>
+  </data>
+  <data name="DotBtnName" xml:space="preserve">
+    <value>btnDot</value>
+  </data>
+  <data name="DotBtnTag" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="DotBtnText" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="DotBtnToolTip" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>&amp;Edit</value>
+  </data>
+  <data name="EightBtnTag" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="EightBtnToolTip" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="EqualBtnName" xml:space="preserve">
+    <value>btnEqual</value>
+  </data>
+  <data name="EqualBtnTag" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EqualBtnText" xml:space="preserve">
+    <value>=</value>
+  </data>
+  <data name="EqualBtnToolTip" xml:space="preserve">
+    <value>Evaluate</value>
+  </data>
+  <data name="EquationLabeName" xml:space="preserve">
+    <value>labelEquation</value>
+  </data>
+  <data name="EscToolTip" xml:space="preserve">
+    <value>delete one digit</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>&amp;Exit</value>
+  </data>
+  <data name="ExpBtnName" xml:space="preserve">
+    <value>btnExpConst</value>
+  </data>
+  <data name="ExpBtnTag" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="ExpBtnText" xml:space="preserve">
+    <value>e</value>
+  </data>
+  <data name="ExpBtnToolTip" xml:space="preserve">
+    <value>Gives The Value Of e</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="FiveBtnTag" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="FiveToolTip" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="FourBtnTag" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="FourToolTip" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="GeorgiaFont" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="InputTextBox" xml:space="preserve">
+    <value>inputTxtbox</value>
+  </data>
+  <data name="LogBtnName" xml:space="preserve">
+    <value>btnLog</value>
+  </data>
+  <data name="LogBtnTag" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="LogBtnText" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="LogBtnToolTip" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="McBtnTag" xml:space="preserve">
+    <value>MC</value>
+  </data>
+  <data name="MinusBtnName" xml:space="preserve">
+    <value>btnMinusOp</value>
+  </data>
+  <data name="MinusBtnTag" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MinusBtnText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="MinusBtnToolTip" xml:space="preserve">
+    <value>performSubTraction</value>
+  </data>
+  <data name="ModBtnName" xml:space="preserve">
+    <value>btnMod</value>
+  </data>
+  <data name="ModBtnTag" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ModBtnText" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="ModToolTip" xml:space="preserve">
+    <value>Mod</value>
+  </data>
+  <data name="MsBtnText" xml:space="preserve">
+    <value>MS</value>
+  </data>
+  <data name="MulBtnName" xml:space="preserve">
+    <value>btnMulOp</value>
+  </data>
+  <data name="MulBtnTag" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="MulBtnText" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="MulBtnTooltip" xml:space="preserve">
+    <value>Perform Multiply</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>WinCalc</value>
+  </data>
+  <data name="NineBtnTag" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="NineBtnToolTip" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="OneBtnTag" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OneDivXName" xml:space="preserve">
+    <value>btnOneDivXOp</value>
+  </data>
+  <data name="OneDivXTag" xml:space="preserve">
+    <value>1/x</value>
+  </data>
+  <data name="OneDivXText" xml:space="preserve">
+    <value>1/x</value>
+  </data>
+  <data name="OneDivXToolTip" xml:space="preserve">
+    <value>Perform Division</value>
+  </data>
+  <data name="OneToolTip" xml:space="preserve">
+    <value>One</value>
+  </data>
+  <data name="Paste" xml:space="preserve">
+    <value>&amp;Paste</value>
+  </data>
+  <data name="PiBtnName" xml:space="preserve">
+    <value>btnPi</value>
+  </data>
+  <data name="PiBtnTag" xml:space="preserve">
+    <value>∏</value>
+  </data>
+  <data name="PiBtnText" xml:space="preserve">
+    <value>∏</value>
+  </data>
+  <data name="PiBtnToolTip" xml:space="preserve">
+    <value>Gives the value of Pi</value>
+  </data>
+  <data name="PlusBtnName" xml:space="preserve">
+    <value>btnPlusOp</value>
+  </data>
+  <data name="PlusBtnTag" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="PlusBtnText" xml:space="preserve">
+    <value>+</value>
+  </data>
+  <data name="PlusBtnToolTip" xml:space="preserve">
+    <value>Perform Addition</value>
+  </data>
+  <data name="PlusMinusBtnName" xml:space="preserve">
+    <value>btnPlusMinus</value>
+  </data>
+  <data name="PlusMinusBtnTag" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="PlusMinusBtnText" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="PlusMinusBtnToolTip" xml:space="preserve">
+    <value>Change Sign</value>
+  </data>
+  <data name="RootBtnTag" xml:space="preserve">
+    <value>Root</value>
+  </data>
+  <data name="rootTooltip" xml:space="preserve">
+    <value>Find Root</value>
+  </data>
+  <data name="Scientific" xml:space="preserve">
+    <value>&amp;Scientific</value>
+  </data>
+  <data name="SevenBtnTag" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SevenBtnToolTip" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="SineBtnName" xml:space="preserve">
+    <value>btnSine</value>
+  </data>
+  <data name="SineBtnTag" xml:space="preserve">
+    <value>Sine</value>
+  </data>
+  <data name="SineBtnText" xml:space="preserve">
+    <value>Sine</value>
+  </data>
+  <data name="SineBtnToolTip" xml:space="preserve">
+    <value>Sine Value</value>
+  </data>
+  <data name="SixBtnTag" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SixToolTip" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>&amp;Standard</value>
+  </data>
+  <data name="TanBtnName" xml:space="preserve">
+    <value>btnTan</value>
+  </data>
+  <data name="TanBtnTag" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="TanBtnText" xml:space="preserve">
+    <value>Tan</value>
+  </data>
+  <data name="TanBtnToolTip" xml:space="preserve">
+    <value>tan(x) Value</value>
+  </data>
+  <data name="ThreeBtnTag" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ThreeToolTip" xml:space="preserve">
+    <value>three</value>
+  </data>
+  <data name="TwoBtnTag" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TwoToolTip" xml:space="preserve">
+    <value>two</value>
+  </data>
+  <data name="WinCalcText" xml:space="preserve">
+    <value>Calculator</value>
+  </data>
+  <data name="XFactBtnName" xml:space="preserve">
+    <value>btnXFact</value>
+  </data>
+  <data name="XFactBtnTag" xml:space="preserve">
+    <value>x!</value>
+  </data>
+  <data name="XFactBtnText" xml:space="preserve">
+    <value>X!</value>
+  </data>
+  <data name="XFactBtnTooTip" xml:space="preserve">
+    <value>factorial of x</value>
+  </data>
+  <data name="XPowTwoBtnName" xml:space="preserve">
+    <value>btnXPowTwo</value>
+  </data>
+  <data name="XPowTwoBtnTag" xml:space="preserve">
+    <value>x^2</value>
+  </data>
+  <data name="XPowTwoBtnText" xml:space="preserve">
+    <value>x^2</value>
+  </data>
+  <data name="XPowTwoBtnToolTip" xml:space="preserve">
+    <value>Evaluate x^2</value>
+  </data>
+  <data name="XPowYBtnName" xml:space="preserve">
+    <value>btnXPowY</value>
+  </data>
+  <data name="XPowYBtnTag" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="XPowYBtnText" xml:space="preserve">
+    <value>^</value>
+  </data>
+  <data name="XPowYBtnToolTip" xml:space="preserve">
+    <value>evaluate x^y</value>
+  </data>
+  <data name="XQubeBtnName" xml:space="preserve">
+    <value>btnXQube</value>
+  </data>
+  <data name="XQubeBtnTag" xml:space="preserve">
+    <value>x^3</value>
+  </data>
+  <data name="XQubeBtnText" xml:space="preserve">
+    <value>x^3</value>
+  </data>
+  <data name="XQubeBtnToolTip" xml:space="preserve">
+    <value>evaluate x^3</value>
+  </data>
+  <data name="ZeroBtnTag" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ZeroBtnToolTip" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="HelpLayoutName" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="LableHelpTitle" xml:space="preserve">
+    <value>Welcome To Desktop Calculator</value>
+  </data>
+  <data name="MPlusbtnText" xml:space="preserve">
+    <value>M+</value>
+  </data>
+  <data name="MrBtnText" xml:space="preserve">
+    <value>MR</value>
+  </data>
+  <data name="TableLayoutName" xml:space="preserve">
+    <value>tableLayoutHelp</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Martz90_Circle_Calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Martz90-Circle-Calculator.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CEBtnTag" xml:space="preserve">
+    <value>CE</value>
+  </data>
+  <data name="ClearBtnTag" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="InputTextBoxName" xml:space="preserve">
+    <value>inputTxtbox</value>
+  </data>
+</root>
